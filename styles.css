@@ -1,6 +1,51 @@
+:root{
+    --accent-text-color:#2196F3;
+    --third-text-color:#000;
+    --primary-text-color: #212121;
+    --secondary-text-color:#757575;
+}
 body{
     font-family: "Roboto" sans-serif;
     color: #212121;
     background-color: #FFF;
     font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+address{
+    font-style: normal;
+}
+.logo{
+color:var(--accent-text-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.03em;
+}
+.logo-part{
+    color:var(--third-text-color);
+}
+.nav-link{
+color:var(--primary-text-color);
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.02em;
+}
+.current{
+    color: var(--accent-text-color);
+}
+.contakt-link{
+color:var(--secondary-text-color);
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.02em;
+}
+.contakt-link:hover,
+.contakt-link:focus{
+    color: var(--accent-text-color);
 }
